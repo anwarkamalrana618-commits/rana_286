@@ -125,23 +125,7 @@ class HomePage extends StatelessWidget {
               ],
             ),
           ),
-          Container(
-            height: 200,
-            width: 200,
-            padding: EdgeInsets.all(30),
-            margin: EdgeInsets.all(20),
-            alignment: Alignment.bottomRight,
-            decoration: BoxDecoration(
-              color: const Color.fromARGB(255, 175, 153, 87),
-              border: Border.all(width: 5, color: Colors.black),
-              borderRadius: BorderRadius.all(Radius.circular(20)),
-              
-              gradient: RadialGradient(
-                colors: [Colors.blue, const Color.fromARGB(255, 232, 167, 243)],
-              ),
-            ),
-            child: Text("hello container"),
-          ),
+         
         ],
       ),
 
